@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            height: 250px;
+            width: 200px
+        }
+
+        #kid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap:wrap;
+        }
+
+
+        .inside {
+            display: flex;
+            align-items: center;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            width: 250px;
+            height: 300px;
+        }
+
+        .title {
+            font-size: 12px;
+            font-family: breeserif;
+            font-weight: bold;
+            margin: 0px;
+            width: 140px;
+            margin-top: 10px;
+            height: 30px;
+        }
+
+        .li {
+            font-family: "roboto";
+            list-style-type: none;
+            margin-left: 15px;
+            margin-top: 10px;
+            font-size: 10px;
+            height: 30px;
+        }
+
+        .money {
+            font-size: 12px;
+            font-family: breeserif;
+            font-weight: bold;
+
+        }
+
+        .offer {
+            font-size: 12px;
+            font-family: breeserif;
+            font-weight: bold;
+            margin: 0px;
+            text-decoration: line-through;
+            margin-left: 10px;
+        }
+
+        .percentage {
+            font-size: 12px;
+            font-family: breeserif;
+            font-weight: bold;
+            margin: 0px;
+            margin-left: 10px;
+            color: red;
+        }
+
+        .BUTTON {
+            width: 200px;
+            color: white;
+            height: 24px;
+            background-color: black;
+            border: none;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .lik {
+            list-style-type: none;
+            width: 100px;
+            margin-left: 30px;
+        }
+
+        .select {
+            font-family: breeserif;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nm {
+            margin-left: 50px;
+            width: 80px;
+            height: 26px;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media (max-width:500px) {
+            .nm {
+            margin-left:10px;
+            width: 80px;
+            height: 26px;
+            border: none;
+            cursor: pointer;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="select">Select Your Choice</h1>
+    <nav>
+        <ul class="ul">
+            <button class="nm" id="mensButton">Men</button>
+            <button class="nm" id="womensButton">WOMEN</button>
+            <button class="nm" id="kidsButton">Kids</button>
+            </li>
+        </ul>
+        <div id="kid">
+        </div>
+    </nav>
+    <script src="./script.js"></script>
+</body>
+</html>
